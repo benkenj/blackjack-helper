@@ -1,5 +1,5 @@
 
-from suit import Suit
+from entities.suit import Suit
 
 class Card:
     def __init__(self, suit=Suit, name=str):

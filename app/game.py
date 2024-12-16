@@ -1,4 +1,4 @@
-from shoe import Shoe
+from entities import Shoe
 class Game:
     def __init__(self, nDecks=int):
         self.shoe = Shoe(nDecks)
@@ -11,5 +11,5 @@ class Game:
             print(c.getName() + " " + c.getSuit().name)
 
 
-game = Game(1)
+#game = Game(2)
 

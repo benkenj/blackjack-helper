@@ -1,6 +1,8 @@
 
-from deck import Deck
-from card import Card
+#!/usr/bin/env python3
+
+from entities.card import Card
+from entities.deck import Deck
 import random
 class Shoe:
     def __init__(self, nDecks=int, penetration=1.0):

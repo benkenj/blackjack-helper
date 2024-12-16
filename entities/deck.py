@@ -1,6 +1,6 @@
 from typing import List
-from cardHelper import CardHelper
-from card import Card
+from helpers.cardHelper import CardHelper
+from entities.card import Card
 class Deck:
     N_CARDS = 52
 
